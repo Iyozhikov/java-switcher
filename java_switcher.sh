@@ -42,6 +42,7 @@ APPS["servertool"]="${BIN_DIR}/servertool"
 APPS["tnameserv"]="${BIN_DIR}/tnameserv"
 APPS["unpack200"]="${BIN_DIR}/unpack200"
 LIBS["mozilla-javaplugin.so"]="/usr/lib/mozilla/plugins/libjavaplugin.so libnpjp2.so"
+LIBS["javaplugin"]="/usr/lib64/browser-plugins/javaplugin.so libnpjp2.so"
 NEW_JAVA_HOME=''
 #Starting up
 if [ $# -eq 0 ]; then
